@@ -1,16 +1,17 @@
-# monetary_policy_lda
+-*- markdown -*-
 
+# monetary_policy_lda
 
 ## Usage
 
 * Make text files from PDF Documents in the origText directory.
 
-  % ./mkText.sh
+    % ./mkText.sh
 
 * In R environment, run two programs, process0.R and lda.R .
 
-  > source("process0.R")
-  > source("lda.R")
+    > source("process0.R")
+    > source("lda.R")
 
 ###UNIX environment
 
@@ -20,4 +21,5 @@ The authors used FreeBSD 11.1-RELEASE and followings.
 * perl
 * python 2.7
 * MeCab
-* R with dplyr, RMeCab, topicmodels, tm, lda
+* R
+  * dplyr, RMeCab, topicmodels, tm, lda

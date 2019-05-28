@@ -16,6 +16,7 @@ model <- LDA(res5, k);
 terms(model);
 
 res6 <- topicmodels::dtm2ldaformat(res5);
+# comment out the line below, if you need the randomness.
 set.seed(123);
 result <- lda::lda.collapsed.gibbs.sampler(res6$documents, K = 3, res6$vocab, 200000, 0.1, 0.1, compute.log.likelihood=T);
 top.words <- lda::top.topic.words(result$topics, 20, by.score=T);

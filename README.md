@@ -15,11 +15,10 @@ In R environment, run two programs, process0.R and lda.R .
 
 ### UNIX environment
 
-The authors used FreeBSD 11.1-RELEASE and followings.
+The authors used the code in FreeBSD 11.1-RELEASE with following software.
 
 * xpdf (for Japanese, you need Language Support Packages: xpdf-japanese.tar.gz and settings)
 * perl
-* python 2.7
 * MeCab
 * R
   * dplyr, RMeCab, topicmodels, tm, lda

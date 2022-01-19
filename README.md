@@ -2,6 +2,9 @@
 
 # monetary_policy_lda
 
+The code for Keida and Takeda (2019),
+https://www.rieti.go.jp/jp/publications/summary/19050015.html
+
 ## Usage
 
 In shell environment, make text files from PDF Documents in the `./origText` directory.

@@ -1,8 +1,8 @@
 library(dplyr)
 library(RMeCab)
 
-#docnum <- 55;
-docnum <- 70;
+#docnum <- 70;
+docnum <- 40;
 
 res0 <- docDF("./text", type=1, N=1);
 res1 <- res0 %>% filter(POS1 %in% c("名詞", "動詞")) %>% filter(POS2 %in% c("サ変接続", "一般", "形容動詞語幹", "固有名詞", "自立", "数"));

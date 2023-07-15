@@ -11,6 +11,9 @@ cat - |
     sed -e 's/ //g' |
     sed -e 's/_S_/ /g' |
     # ここまで
+    perl -pe 's/（植田総裁）/（答）/g' |
+    perl -pe 's/（氷見野副総裁）/（問）/g' |
+    perl -pe 's/（内田副総裁）/（問）/g' |
     perl -pe 's/（問）/\n（問）/g' |
     perl -pe 's/（答）/\n（答）/g' |
     grep -v ^$ |

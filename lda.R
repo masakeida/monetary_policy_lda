@@ -4,14 +4,14 @@ library(tm)
 library(lda)
 
 #docnum <- 70;
-docnum <- 40;
+docnum <- 41;
 
 res3 <- read.table("resource.txt", header=T);
 res4 <- res3;
 rownames(res4) <- res4$TERM;
 res4 <- res4 %>% select(-c(TERM:POS2));
 res5 <- as.DocumentTermMatrix(t(res4), weighting= weightTf);
-k <- 5;
+k <- 6;
 numtopw <- 20;  # number of top words in topic
 model <- LDA(res5, k);
 terms(model);

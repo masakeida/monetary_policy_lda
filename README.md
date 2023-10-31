@@ -3,16 +3,12 @@
 # monetary_policy_lda
 
 The code for 慶田 (2023),
-
 https://www.jeri.or.jp/survey/%e6%a4%8d%e7%94%b0%e6%96%b0%e7%b7%8f%e8%a3%81%e3%81%ae%e9%87%91%e8%9e%8d%e6%94%bf%e7%ad%96%e3%81%ae%e8%a1%8c%e6%96%b9/
 
 The code for Keida and Takeda (2019),
-
 https://www.rieti.go.jp/jp/publications/summary/19050015.html
 
-Please see
-
-https://github.com/masakeida/monetary_policy_lda/tree/rel_2019
+Please see https://github.com/masakeida/monetary_policy_lda/tree/rel_2019
 
 ## Usage
 

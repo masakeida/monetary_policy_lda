@@ -4,7 +4,7 @@ library(tm)
 library(lda)
 
 #docnum <- 70;
-docnum <- 41;
+docnum <- 44;
 
 res3 <- read.table("resource.txt", header=T);
 res4 <- res3;
